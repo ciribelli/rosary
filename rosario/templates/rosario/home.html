@@ -1,0 +1,58 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Agency - Start Bootstrap Theme</title>
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    </head>
+
+
+<style>
+
+body {
+background-color: rgb(20,20,20);
+}
+
+.text {
+color: rgb(200,150,150);
+font-family: 'Open Sans Condensed';
+}
+
+h2 {
+font-size: 30px;
+font-weight: bolder;
+}
+
+h3 {
+font-size: 20px;
+margin-top: 40px;
+}
+
+</style>
+
+<body>
+
+
+<div class="container-fluid text text-justify">
+
+{% block content %}
+{% endblock %}
+<!--
+<img src="{% static "img/tercobg.png" %}" width="100%">
+-->
+<br>
+<br>
+</div>
+
+
+</body>
+</html> 
