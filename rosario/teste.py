@@ -1,7 +1,7 @@
 import datetime
-from django.shortcuts import render
 
-def home(request):
+
+def home():
     
     hoje = datetime.datetime.today()
     diasemana = hoje.weekday()
@@ -20,5 +20,7 @@ def home(request):
 
 
     saida = "rosario/" + misterio + ".html"
+    print (misterio)
+    print(diasemana)
 
-    return render(request, saida, {'misterio': misterio})
+home()
