@@ -9,11 +9,11 @@ def home(request):
     misterio = ""
     saida = ""
 
-    if (diasemana == 0 | diasemana == 5):
+    if (diasemana == 0) | (diasemana == 5):
         misterio = "gozosos"        
-    if (diasemana == 1 | diasemana == 4):
+    if (diasemana == 1) | (diasemana == 4):
         misterio = "dolorosos"
-    if (diasemana == 2 | diasemana == 6):
+    if (diasemana == 2) | (diasemana == 6):
         misterio = "gloriosos"
     if (diasemana == 3):
         misterio = "luminosos"
