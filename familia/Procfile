@@ -1,1 +1,1 @@
-web: gunicorn familia.wsgi
+web: gunicorn rosary.wsgi
